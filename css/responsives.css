@@ -1,0 +1,11 @@
+@media(max-width:  576px){
+    a.navbar-brand{
+        width: 60%;
+    }
+}
+.area{
+    padding: 0 20px !important;
+}
+.hero-img{
+    margin-top: 40px;
+}
