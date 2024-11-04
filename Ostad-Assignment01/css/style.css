@@ -20,8 +20,7 @@
 }
 .btn-primary:hover{
     border: 1px solid rgb(94, 59, 238);
-    background-color: rgb(94, 59, 238) !important;
-    background-color: transparent !important;
+    background-color: rgb(24, 6, 225) !important;
 }
 .btn-outline-primary{
     border: 1px solid rgb(94, 59, 238);
