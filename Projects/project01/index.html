@@ -3,9 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .expertise, .portfolio, .testimonials, .contact {
+            padding: 50px 0;
+        }
+        .about-me {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+        .testimonial {
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>I create product design and brand experience</h1>
+            <button class="btn btn-primary">Contact Me</button>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise">
+        <div class="container">
+            <h2>My Expertise</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Creative Product Designer</h3>
+                    <p>Creating visually appealing and user-friendly designs.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and engaging user interfaces.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Website Development</h3>
+                    <p>Building responsive and functional websites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="path/to/image.jpg" alt="About Me" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                    <button class="btn btn-primary">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4 portfolio-item">
+                    <img src="path/to/portfolio1.jpg" alt="Portfolio 1" class="img-fluid">
+                    <h3>Project Title 1</h3>
+                    <p>Short description of the project.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <img src="path/to/portfolio2.jpg" alt="Portfolio 2" class="img-fluid">
+                    <h3>Project Title 2</h3>
+                    <p>Short description of the project.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <img src="path/to/portfolio3.jpg" alt="Portfolio 3" class="img-fluid">
+                    <h3>Project Title 3</h3>
+                    <p>Short description of the project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Customer Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4 testimonial">
+                    <p>"Great work! Highly recommended."</p>
+                    <p>- Customer Name</p>
+                </div>
+                <div class="col-md-4 testimonial">
+                    <p>"Professional and timely delivery."</p>
+                    <p>- Customer Name</p>
+                </div>
+                <div class="col-md-4 testimonial">
+                    <p>"Excellent design skills."</p>
+                    <p>- Customer Name</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
