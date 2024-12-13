@@ -30,6 +30,6 @@ function countVowels(str){
     return count;
 }
 
-console.log(reverseString("Hello_this_is_khan"));
-console.log(removeDuplicates([5,5,5,6,7,8,8,8,9,10]));
-console.log(countVowels("My name is Ripon Ali"));
+console.log("The reverse string is : ",reverseString("Hello_this_is_khan"));
+console.log("After removed all duplicates : ",removeDuplicates([5,5,5,6,7,8,8,8,9,10]));
+console.log("Numbers of vowels is : ",countVowels("My name is Ripon Ali"));
